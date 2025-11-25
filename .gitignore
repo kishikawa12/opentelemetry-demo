@@ -19,7 +19,7 @@ docker-compose.override.yml
 bin/
 obj/
 .vs/
-.vscode
+.vscode/*  
 .gradle/
 .idea/
 build/
@@ -53,3 +53,5 @@ test/tracetesting/tracetesting-vars.yaml
 *.apk
 
 !src/currency/build
+
+!.vscode/mcp.json
